@@ -25,7 +25,7 @@ $.fn.receiveWebSocket = function () {
 $.fn.createWebSocket = function () {
   if ("WebSocket" in window)
   {
-     // Let us open a web socket
+     // Let us open a web socket 182.50.155.56:8080
      ws = new WebSocket("ws://localhost:8080/start", ['echo-protocol']);
      ws.onopen = function()
      {
