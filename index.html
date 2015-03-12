@@ -100,7 +100,7 @@
         parseJSONP:function(result){  
             movieInfo.result = result.results;
             $.each(result.results, function(i, row) {
-                $('#movie-data').append('<li data-theme="a"><a href="" data-id="' + row.town_id + '"><h3>' + row.town_id + '</h3></a></li>');
+                $('#movie-data').append('<li data-theme="a"><a href="" data-id="' + row.town_id + '"><h3>' + row.town_title + '</h3></a></li>');
             });
             $('#movie-data').listview('refresh');
         }
