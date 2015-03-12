@@ -91,6 +91,7 @@
 		        dataType: "jsonp",
 		        async: true,
 		        success: function (result) {
+		        	console.log(result);
 		            ajax.parseJSONP(result);
 		        },
 		        error: function (request,error) {
