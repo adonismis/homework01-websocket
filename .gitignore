@@ -1,0 +1,6 @@
+/node_modules
+/assets
+/.project
+/.settings
+/.pydevproject
+.DS_Store
